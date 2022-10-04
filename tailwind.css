@@ -411,10 +411,8 @@ video {
 }
 
 h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 *, ::before, ::after {
