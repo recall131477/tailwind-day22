@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <title>Day22 - 元件化的重要性</title>
+  </head>
+  <body class="p-4">
+    <div class="space-y-4">
+      <!-- base -->
+      <h1>今日主題：元件化的重要性</h1>
+      <!-- components -->
+      <div>
+        <button
+          type="button"
+          class="rounded-lg bg-blue-500 py-2 px-4 font-bold text-white duration-300 hover:bg-blue-700"
+        >
+          按鈕
+        </button>
+        <button type="button" class="btn-primary">按鈕</button>
+      </div>
+      <!-- utilities -->
+      <div class="flex gap-x-4">
+        <img
+          src="https://images.unsplash.com/photo-1625753487861-c1e6d778a227?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW5hdGluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt="mountains"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1625753487861-c1e6d778a227?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW5hdGluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt="mountains"
+          class="filter-grayscale"
+        />
+      </div>
+    </div>
+  </body>
+</html>
